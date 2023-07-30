@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  line-height: 1.625rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: #000;
+  height: 50px;
+  width: 50px;
+}
+
+.filterDetail {
+  font-family: 'Consolas', 'Menlo', 'Ubuntu Mono', monospace;
+}
